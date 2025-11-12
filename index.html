@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental PS - Home</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background-color: #007bff; color: white; padding: 20px; text-align: center; background-image: url('https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=1200&h=400&fit=crop'); background-size: cover; background-position: center; }
+        nav { background-color: #333; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        nav a:hover { text-decoration: underline; }
+        .container { max-width: 1200px; margin: 20px auto; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .section { margin-bottom: 30px; }
+        .section h2 { color: #007bff; }
+        .gallery { display: flex; gap: 10px; justify-content: center; margin-bottom: 20px; }
+        .gallery img { width: 200px; height: 150px; object-fit: cover; border-radius: 8px; }
+        .rental-list { display: flex; flex-wrap: wrap; gap: 20px; }
+        .rental-item { background-color: #f9f9f9; padding: 15px; border-radius: 8px; width: 300px; text-align: center; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+        .rental-item img { max-width: 100%; height: auto; border-radius: 8px; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+        @media (max-width: 768px) { .rental-list, .gallery { flex-direction: column; align-items: center; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rental PS</h1>
+        <p>Sewa PlayStation Terbaru dengan Harga Terjangkau</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">Tentang</a>
+        <a href="booking.html">Pesan Sekarang</a>
+        <a href="contact.html">Kontak</a>
+    </nav>
+    <div class="container">
+        <section class="section">
+            <h2>Selamat Datang di Rental PS</h2>
+            <div class="gallery">
+                <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=400&h=300&fit=crop" alt="Gaming Setup">
+                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&h=300&fit=crop" alt="Console Collection">
+                <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=300&fit=crop" alt="PS Controller">
+            </div>
+            <p>Kami menyediakan layanan rental PlayStation untuk gaming seru. Pilih konsol favorit Anda dan nikmati permainan tanpa harus membeli! harga terjangkau, dan sudah pasti nikmat saat bermain.</p>
+            <p><strong>Keunggulan Kami:</strong> Konsol terbaru, aksesoris lengkap, dan garansi keamanan.</p>
+        </section>
+        <section class="section">
+            <h2>Daftar Rental Cepat</h2>
+            <div class="rental-list">
+                <div class="rental-item">
+                    <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=300&h=200&fit=crop" alt="PS5">
+                    <h3>PlayStation 5</h3>
+                    <p>Harga: Rp 40.000/jam</p>
+                    <p>Fitur: 4K Gaming, SSD Cepat</p>
+                </div>
+                <div class="rental-item">
+                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=300&h=200&fit=crop" alt="PS4">
+                    <h3>PlayStation 4</h3>
+                    <p>Harga: Rp 30.000/jam</p>
+                    <p>Fitur: Gaming HD</p>
+                </div>
+                <div class="rental-item">
+                    <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=300&h=200&fit=crop" alt="PS4 Pro">
+                    <h3>PlayStation 4 Pro</h3>
+                    <p>Harga: Rp 35.000/jam</p>
+                    <p>Fitur: 4K HDR</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Rental PS. MAJU MANADO.</p>
+    </footer>
+</body>
+</html>
